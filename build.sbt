@@ -17,6 +17,7 @@ inThisBuild(
   List(
     scalaVersion                         := "2.13.8",
     ThisBuild / Test / parallelExecution := false,
+    version                              := "nkgm_main",
     organization                         := "com.rpiaggio",
     sonatypeProfileName                  := "com.rpiaggio",
     homepage                             := Some(
